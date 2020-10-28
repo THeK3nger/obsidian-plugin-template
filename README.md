@@ -17,7 +17,7 @@ npm i
 Then, you can compile the plugin with:
 
 ```bash
-npm run buil
+npm run build
 ```
 
 This will create a `main.js` file in the project root. That is the entry point of your plugin.
