@@ -1,6 +1,6 @@
 import { Plugin } from "obsidian";
 
-export default class ReadingTime extends Plugin {
+export default class MyPlugin extends Plugin {
   onInit() {}
 
   async onload() {
