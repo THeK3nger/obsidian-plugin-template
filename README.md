@@ -6,6 +6,10 @@ This templates includes a barebone directory structure for an Obsidian Plugin. B
 
 You can click on the "Use this template" button above.
 
+### Enable Github's Actions
+
+After you created a new repository, remember to rename the `RENAME.github` to `.github` to enable the GitHub's Actions. Then go in `.github/workflows/release.yml` and change `PLUGIN_NAME` on line 10.
+
 ## How to compile the plugin
 
 First, install the dependencies with
