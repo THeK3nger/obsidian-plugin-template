@@ -2,6 +2,8 @@
 
 This templates includes a barebone directory structure for an Obsidian Plugin. Bundling is based on [Rollup.js](https://rollupjs.org/).
 
+**NOTE:** This is not the official template. You can find [the official sample plugin here](https://github.com/obsidianmd/obsidian-sample-plugin). This is a plugin template I customized with a nicer (for me) directory structure and some additional tool (like featuring automatic releases with Github's Actions).
+
 ## How to use it
 
 You can click on the "Use this template" button above.

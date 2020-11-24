@@ -12,7 +12,10 @@ export default class MyPlugin extends Plugin {
     // This snippet of code is used to load pluging settings from disk (if any)
     // and then add the setting tab in the Obsidian Settings panel.
     // If your plugin does not use settings, you can delete these two lines.
-    this.setting = (await this.loadData()) || new MyPluginSettings();
+    this.setting = (await this.loadData()) || {
+      someConfigData: 1,
+      anotherConfigData: "defaultValue",
+    };
     this.addSettingTab(new MyPluginSettingsTab(this.app, this));
   }
 
@@ -25,9 +28,9 @@ export default class MyPlugin extends Plugin {
  * This is a data class that contains your plugin configurations. You can edit it
  * as you wish by adding fields and all the data you need.
  */
-class MyPluginSettings {
-  someConfigData = 1;
-  anotherConfigData = "foo";
+interface MyPluginSettings {
+  someConfigData: number;
+  anotherConfigData: string;
 }
 
 class MyPluginSettingsTab extends PluginSettingTab {
