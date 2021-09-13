@@ -16,10 +16,10 @@
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-typescript": "^8.2.5",
-    "@types/node": "^16.4.10",
+    "@types/node": "^16.9.1",
     "obsidian": "^0.12.11",
-    "rollup": "^2.55.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.3.5"
+    "rollup": "^2.56.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
   }
 }
